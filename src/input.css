@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+:root {
+    --white: #ffffff;
+    --cream: #f2ebe3;
+    --gray: #6c7289;
+    --black: #1c232b;
+    --green500: #3c8067;
+    --green700: #1b4133;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: 'SOFT' 0, 'WONK' 0;
+    background-color: var(--cream);
+    font-size: var(--text-sm);
+}
+h1 {
+    font-family: 'Fraunces', serif;
+    font-optical-sizing: auto;
+    color: var(--black);
+    font-weight: 700;
+    font-size: var(--text-3xl);
+    line-height: 1.2;
+}
