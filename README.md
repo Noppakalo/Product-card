@@ -42,6 +42,7 @@
 
 -   Write tailwind css
 
+```
  <main class="container flex items-center justify-center m-auto h-svh">
             <div
                 class="max-w-lg w-full h-[400px] flex bg-white rounded-lg max-md:flex-col max-md:h-[650px] mx-4"
@@ -87,6 +88,7 @@
                 </div>
             </div>
         </main>
+```
 
 -   Responsive design support all device
 
