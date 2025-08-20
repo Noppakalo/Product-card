@@ -235,6 +235,9 @@
   .max-w-lg {
     max-width: var(--container-lg);
   }
+  .cursor-pointer {
+    cursor: pointer;
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -247,8 +250,14 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
+  }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
+  }
+  .rounded-\[10px\] {
+    border-radius: 10px;
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
@@ -274,6 +283,9 @@
   }
   .py-2\.5 {
     padding-block: calc(var(--spacing) * 2.5);
+  }
+  .text-center {
+    text-align: center;
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -314,6 +326,13 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .hover\:bg-\[var\(--green700\)\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--green700);
+      }
+    }
   }
   .max-md\:size-80 {
     @media (width < 48rem) {
